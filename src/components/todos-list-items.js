@@ -34,8 +34,8 @@ renderTaskSection(){
     if(this.state.isEditing){
       return(
         <td>
-                <button onClick={this.onSaveClick.bind(this)}> Save</button>
-                <button onClick={this.onCancelClick.bind(this)}>Cancel</button>
+                <button  onClick={this.onSaveClick.bind(this)}> Save</button>
+                <button  onClick={this.onCancelClick.bind(this)}>Cancel</button>
 
         </td>
       );
